@@ -19,6 +19,7 @@ import ticTac from "../images/Project/ticTac.png";
 import meShop from "../images/Project/meShop.png";
 import excell from "../images/Project/excell.png";
 import swiggy from "../images/Project/swiggy.png";
+import contact from "../images/Project/contact.png";
 import hitech from "../images/Education/hi-tech.png"
 import poly from "../images/Education/poly.jpeg"
 import ssc from "../images/Education/ssc.jpeg"
@@ -433,6 +434,18 @@ export const projects = [
     category: "javascript",
     github: "https://github.com/govind2611/Swiggy-Clone",
     webapp: "https://govind2611.github.io/Swiggy-Clone/",
+  },
+  {
+    id: 16,
+    title: "ContactX",
+    date: "Oct 2023",
+    description:
+      "Developed a comprehensive MERN (MongoDB, Express.js, React, Node.js) full-stack application, designed for managing contacts. This user-friendly app allows for secure user registration and login. Authenticated users gain the ability to add, edit, and delete contacts in their personal directory. With a sleek and intuitive interface, it simplifies contact management while ensuring data security and seamless user experience.",
+    image: contact,
+    tags: ["React JS", "Node JS", "Express", "Mongo DB", "Mongoose", "JWT"],
+    category: "full stack",
+    github: "https://github.com/govind2611/contact-manager",
+    webapp: "https://contact-manager-taupe-iota.vercel.app/",
   },
 ];
 
