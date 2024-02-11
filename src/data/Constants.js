@@ -23,6 +23,7 @@ import contact from "../images/Project/contact.png";
 import hitech from "../images/Education/hi-tech.png"
 import poly from "../images/Education/poly.jpeg"
 import ssc from "../images/Education/ssc.jpeg"
+import paktolus from "../images/Experience/paktolus.jpeg"
 
 
 export const Bio = {
@@ -184,6 +185,21 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: paktolus,
+    role: "Jr. Software Engineer",
+    company: "Paktolus Solutions",
+    date: "Nov 2023 - Ongoing",
+    desc: "Working as Jr. Software Engineer on insurance domain",
+    skills: [
+      "Node JS",
+      "Typescript",
+      "Nest JS",
+      "PostgreSQL",
+    ],
+    doc:"",
+  },
+  {
+    id: 1,
     img: bajajLogo,
     role: "Diploma Trainee Engineer",
     company: "Bajaj Auto Ltd",
@@ -199,7 +215,7 @@ export const experiences = [
     doc: bajajCert,
   },
   {
-    id: 1,
+    id: 2,
     img: ruchaLogo,
     role: "Project Intern",
     company: "Rucha Engineering 2.0",
@@ -209,7 +225,7 @@ export const experiences = [
     doc: ruchaCert,
   },
   {
-    id: 2,
+    id: 3,
     img: codexLogo,
     role: "React Intern",
     company: "Codex Earth",
